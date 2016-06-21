@@ -1,11 +1,10 @@
 // ==UserScript==
 // @name        Github Repository Sorter
 // @namespace   http://sunnyrodriguez.com/
-// @version     0.1
+// @version     0.2
 // @description Sorts Github repositories.
 // @author      splttingatms
-// @match       http*://*github.com/*
-// @exclude     http*://*github.com/*/*
+// @include     /^https?://.*\.?github\.com/\w+/?$/
 // @grant       none
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js
 // @require     https://greasyfork.org/scripts/1003-wait-for-key-elements/code/Wait%20for%20key%20elements.js?version=49342
